@@ -1,0 +1,36 @@
+// $Id: assignment4.mpc
+
+project (ssignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+
+	
+	 
+	
+	Source_Files {
+		driver.cpp
+		Facade.h
+		Expr_Node.h
+		Expr_Tree.h
+		Add_Expr_Node.h
+		Subtract_Expr_Node.h
+		Multiply_Expr_Node.h
+		Divide_Expr_Node.h
+		Modulo_Expr_Node.h
+		 Binary_Expr_Node.h
+		Number_Node.h
+		Expr_Builder.h
+		Expr_Tree_Builder.h
+		Expr_Node_Visitor.h
+		Eval_Expr_Tree.h
+		
+	}
+	
+	
+	
+}
